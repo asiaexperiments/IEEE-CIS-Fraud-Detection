@@ -1,5 +1,4 @@
-Project name: IEEE-CIS Fraud Detection
-Credit Card Transactions Fraud Detection Dataset
+Project name: Credit Card Transactions Fraud Detection Dataset
 Group name: Fraud Detectors 
 
 Group member names: Sumeya Hussein, Nirjala Gurung, Spandana Andhavarapu, Asia Katun
@@ -7,10 +6,11 @@ Group member names: Sumeya Hussein, Nirjala Gurung, Spandana Andhavarapu, Asia K
 Objective: Detect fraudulent transactions in financial data.
 Learning Opportunity: This project involves handling imbalanced datasets, performing feature engineering, and working with time-based data. You will explore preprocessing techniques, model selection, and hyperparameter optimization.
 
-Link to dataset: https://www.kaggle.com/c/ieee-fraud-detection
+Link to dataset: https://www.kaggle.com/datasets/kartik2112/fraud-detection?select=fraudTest.csv
 
-
-https://www.kaggle.com/datasets/kartik2112/fraud-detection?select=fraudTest.csv
+CSV: 
+fraudTest.csv
+fraudTrain.csv
 
 
 Project description (200-300 words): 

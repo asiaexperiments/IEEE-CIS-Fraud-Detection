@@ -17,3 +17,18 @@ Project description (200-300 words):
 Banking customers often fall for scams due to the lack of fraud detection, with this in mind banks have come up with fraud detection devices to combat this issue. Fraud prevention measures have been saving consumers millions per year. The fraud detection devices use machine learning to predict if the purchase the consumer is making is fraudulent. Often banks use a text feature to ask a customer if they are the one making the purchase, and when it is the consumer this can cause dissatisfaction with customer service. We plan to improve the accuracy of fraud detection. 
 We want to improve fraud prevention measures to improve consumers' experiences while preventing fraud. We will use a machine learning model on a large dataset from Vesta, which contains real-world e-commerce transactions. The dataset is available on Kaggle and contains information about product ID, card, address, email domain, device type, and device info. 
 Our goal is to improve the efficacy of fraud detection alerts for people around the world by using a machine learning model to detect fraud more accurately. We aim to do this by predicting fraud by looking at patterns. This would increase business revenue and reduce loss due to fraud. 
+
+
+To download the CSV files into VSCODE 
+
+use:
+pip3 install kagglehub or pip install kagglehub in your terminal
+
+next add this to your jupyter notebook code and run:
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("kartik2112/fraud-detection")
+
+print("Path to dataset files:", path)
+
